@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  roblox-api:
+    build: .
+    container_name: roblox_api
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
