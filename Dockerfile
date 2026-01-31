@@ -14,6 +14,7 @@ RUN pip install --upgrade pip && pip install fastapi uvicorn httpx
 EXPOSE 8000
 
 # Commande pour lancer l'API
-CMD ["uvicorn", "Place_FastAPI:app", "--host", "0.0.0.0", "--port", "8080"]
+CMD ["uvicorn", "Place_FastAPI:app", "--host", "192.168.1.22", "--port", "8080"]
+
 
 
